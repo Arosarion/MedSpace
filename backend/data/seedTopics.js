@@ -6,44 +6,44 @@ dotenv.config();
 
 const topics = [
   {
-    name: "Heart",
+    title: "Heart",
     slug: "heart",
-    description: "Learn the main parts of the heart and how blood flows through it."
+    summary: "Learn the main parts of the heart and how blood flows through it."
   },
   {
-    name: "Lungs",
+    title: "Lungs",
     slug: "lungs",
-    description: "Learn how the lungs help the body breathe and exchange oxygen."
+    summary: "Learn how the lungs help the body breathe and exchange oxygen."
   },
   {
-    name: "Brain",
+    title: "Brain",
     slug: "brain",
-    description: "Learn the basic parts of the brain and what they control."
+    summary: "Learn the basic parts of the brain and what they control."
   },
   {
-    name: "Skeletal System",
+    title: "Skeletal System",
     slug: "skeletal-system",
-    description: "Learn about bones, joints, and the structure of the body."
+    summary: "Learn about bones, joints, and the structure of the body."
   },
   {
-    name: "Muscular System",
+    title: "Muscular System",
     slug: "muscular-system",
-    description: "Learn how muscles help the body move."
+    summary: "Learn how muscles help the body move."
   },
   {
-    name: "Digestive System",
+    title: "Digestive System",
     slug: "digestive-system",
-    description: "Learn how the body breaks down food and absorbs nutrients."
+    summary: "Learn how the body breaks down food and absorbs nutrients."
   },
   {
-    name: "CPR",
+    title: "CPR",
     slug: "cpr",
-    description: "Learn the basic purpose and steps of CPR."
+    summary: "Learn the basic purpose and steps of CPR."
   },
   {
-    name: "Choking",
+    title: "Choking",
     slug: "choking",
-    description: "Learn how to recognize and respond to choking."
+    summary: "Learn how to recognize and respond to choking."
   }
 ];
 
