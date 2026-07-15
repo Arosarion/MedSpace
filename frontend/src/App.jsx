@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import  './components/Login/Login.css'
+import './components/informationpages/InfoPages.css'
 
 import Login from "./components/Login/Login";
 import RegistrationPage from "./components/register/RegistrationPage";
