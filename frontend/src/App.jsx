@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./components/Login/Login.css";
 import "./components/informationpages/InfoPages.css";
@@ -26,9 +25,10 @@ function App() {
       <Route
         path="/home"
         element={
-          <ProtectedRoute>
+          /*<ProtectedRoute>
             <Home />
-          </ProtectedRoute>
+          </ProtectedRoute>*/
+          <Home />
         }
       />
       <Route
