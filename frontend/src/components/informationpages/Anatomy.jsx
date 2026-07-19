@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./InfoPages.css";
 import { Link } from 'react-router-dom'
-import NavBar from "../NavBar";
+import SideBar from "../Sidebar";
 
 export default function Anatomy() {
     return (
         <div>
-            <NavBar />
+            <SideBar />
         </div>
     )
 }

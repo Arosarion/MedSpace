@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./InfoPages.css";
 import { Link } from 'react-router-dom'
-import NavBar from "../NavBar";
+import SideBar from "../Sidebar";
 
 export default function FirstAid() {
     return (
         <div className="FirstAid-container">
-            <NavBar />
+            <SideBar />
             <div className="FirstAid-card">
                 <h1>First Aid Tips</h1>
                 <h3>Having a knowledge of basic first aid skills could save someone's life or your own life. 
@@ -18,7 +18,7 @@ export default function FirstAid() {
                 <ul>
                     <li>What's in a First Aid kit?</li>
                     <li>CPR and When to Do It</li>
-                    <li>How to help someone who's chocking</li>
+                    <li>How to help someone who's choking</li>
                     <li>How to help someone experiencing a seizure</li>
                 </ul>
             </div>

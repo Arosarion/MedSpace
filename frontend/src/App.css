@@ -182,30 +182,7 @@
     border-right-color: var(--border);
   }
 }
-.navbar {
-  --bs-tertiary-bg-rgb: 124, 124, 124; /* RGB for #4B4B4B, no "rgb()" wrapper, no hex */
-}
 
-.navbar {
-  --bs-navbar-color: #ffffff;
-  position: relative;
-  overflow: hidden; /* keeps the noise contained to the navbar */
-}
-
-.navbar::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* top/right/bottom/left: 0 */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  opacity: 0.2; /* adjust grain intensity */
-  pointer-events: none; /* lets clicks pass through to nav links */
-  z-index: 1;
-}
-
-.navbar > * {
-  position: relative;
-  z-index: 2;
-}
 
 .FirstAid-container {
     background-image: url(assets/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
@@ -214,7 +191,7 @@
   background-color: #3DC270;
   opacity: 77%;
   width: 70%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-top: 5%;
   padding: 5%;
   border-radius: 40px;
