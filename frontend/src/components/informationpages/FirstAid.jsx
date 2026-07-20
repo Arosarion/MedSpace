@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SideBar from "../Sidebar";
+import AnatomyModel from "./Cprdemo";
 import "./InfoPages.css";
 import { Link } from 'react-router-dom'
 
@@ -18,7 +19,6 @@ export default function FirstAid() {
                 <br></br>
                 <h2>Table of Contents</h2>
                 <ul>
-                    <li>What's in a First Aid kit?</li>
                     <li>CPR and When to Do It</li>
                     <li>How to help someone who's choking</li>
                     <li>How to help someone experiencing a seizure</li>
@@ -28,6 +28,7 @@ export default function FirstAid() {
                 <h2>
                     How to perform CPR:
                 </h2>
+                <AnatomyModel />
                 <h4>
                     There are two main types of CPR:   
                 </h4>
